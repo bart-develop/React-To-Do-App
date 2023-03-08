@@ -1,0 +1,87 @@
+:root {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	text-align: center;
+	background-color: #121212;
+	color: #fff;
+}
+h1 {
+	font-size: 3rem;
+	margin-block: 50px 100px;
+}
+button {
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: 1rem;
+	border: none;
+	background-color: #df6b0c;
+	color: #fff;
+}
+button:hover {
+	cursor: pointer;
+}
+input {
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: 1rem;
+	width: 350px;
+	height: 50px;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	border: none;
+	padding: 10px;
+}
+input:focus-visible {
+	outline: #df6b0c 2px solid;
+}
+input::placeholder {
+	color: #0000008f;
+}
+form button {
+	width: 100px;
+	height: 50px;
+	margin-left: 50px;
+	border-radius: 10px;
+}
+form button:focus-visible {
+	outline: #fff 2px solid;
+}
+ul {
+	list-style: none;
+	margin-top: 100px;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+}
+li {
+	width: 500px;
+	height: 50px;
+	background-color: #ffffff33;
+	border-radius: 10px;
+	border: #df6b0c 3px solid;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 20px;
+}
+li button {
+	height: 100%;
+	width: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+li button svg {
+	width: 80%;
+	height: 80%;
+}
